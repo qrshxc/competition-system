@@ -29,7 +29,7 @@ const state = {
 const newsItems = [
   {
     tag: "赛事快讯",
-    title: "2026年上半年数学建模竞赛报名通道开放",
+    title: "2026年陈文剑竟然如此开放",
     date: "2026-04-28",
     brief: "各团队可在报名截止前完成成员确认、导师绑定和参赛材料提交。",
   },
@@ -269,8 +269,8 @@ function loginTemplate() {
     <section class="login-view">
       <div class="login-grid" aria-hidden="true"></div>
       <form class="login-card" id="loginForm">
-        <div class="login-badge">Competition Cloud</div>
-        <h1 class="login-title">竞赛团队组建与管理系统</h1>
+        <div class="login-badge">Chaos Control Center</div>
+        <h1 class="login-title">陈文剑乱搞系统</h1>
         <p class="login-subtitle">欢迎登录管理后台</p>
         <label class="login-field">
           <span>♟</span>
@@ -307,7 +307,7 @@ function shellTemplate() {
       <aside class="sidebar">
         <div class="side-logo">
           <span class="side-logo-mark">C</span>
-          <span>竞赛云</span>
+          <span>乱搞云</span>
         </div>
         <nav class="menu">
           ${menu.map((item) => menuButton(item)).join("")}
@@ -330,7 +330,7 @@ function shellTemplate() {
       <section class="workspace">
         <header class="topbar">
           <div class="topbar-radar" aria-hidden="true"></div>
-          <div class="brand">竞赛团队组建与管理系统</div>
+          <div class="brand">陈文剑乱搞系统</div>
           <div class="user-chip">
             <img class="avatar" src="${avatarPath}" alt="">
             <span>${state.username}</span>
@@ -382,8 +382,8 @@ function homeTemplate() {
   return `
     <section class="dashboard-stage">
       <div class="dashboard-copy">
-        <span class="stage-kicker">Intelligent Competition Center</span>
-        <h2>竞赛团队数据驾驶舱</h2>
+        <span class="stage-kicker">Creative Chaos Center</span>
+        <h2>陈文剑乱搞数据驾驶舱</h2>
         <p>今日已同步团队、报名、审核和任务记录，关键流程运行稳定。</p>
         <div class="stage-actions">
           <button class="btn ok" data-page="contests">竞赛信息</button>
